@@ -35,5 +35,42 @@ public class Main {
             }
         }
         System.out.println(sumx-sumy);
+
+
+        //227
+//        int []x={1,25,65,71,21};
+//        int []y={3,65,1,23,2};
+//        int sumx=0;
+//        int sumy=0;
+//        for (int i = 0; i < x.length; i++) {
+//            if (x[i]%7==0){
+//                sumx+=x[i];
+//            }
+//        }
+//        for (int i = 0; i < y.length; i++) {
+//            if (y[i]%7==0){
+//                sumy+=y[i];
+//            }
+//        }
+//        System.out.println(sumx+sumy);
+        //228
+//        int []x={25,3,65,12,8,7};
+//        int []y={6,36,21,41,4};
+//        int k=5;
+//        int count=0;
+//        for (int i = 0; i < x.length; i++) {
+//            if (x[i]%k==0){
+//                count++;
+//            }
+//        }
+//        for (int i = 0; i < y.length; i++) {
+//            if (y[i]%k==0){
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+       
+    }
+}
     }
 }
