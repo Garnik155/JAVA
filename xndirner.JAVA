@@ -72,5 +72,61 @@ public class Main {
        
     }
 }
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+//186
+//        System.out.println(count);
+//        int []x={25,3,65,12,8,7,-5,-15};
+//        int k=15;
+//        int count=0;
+//        for (int i = 0; i < x.length; i++) {
+//           if (x[i]<0){
+//               x[i]*=-1;
+//           }
+//        }
+//        for (int i = 0; i < x.length; i++) {
+//            if (x[i]<k){
+//                count++;
+//            }
+//        }
+//            System.out.println(count);
+        //189
+//        int []x={25,3,65,12,8,7};
+//        int sum=1;
+//        for (int i = 0; i < x.length; i++) {
+//            if (x[i]-i>0){
+//                sum*=x[i];
+//            }
+//        }
+//        System.out.println(sum);
+        //209
+//       int []x={25,3,65,12,8,7,-4,-15};
+//       int k=14;
+//      int count=0;
+//       for (int i = 0; i < x.length; i++) {
+//            if ((x[i])<0){
+//               x[i]*=-1+i;
+//           }
+//       }
+//       for (int i = 0; i < x.length; i++) {
+//          if (x[i]-i>k){
+//               count++;
+//           }
+//       }
+//       System.out.println(count);
+//        //210
+       int []x={25,3,65,12,8,7};
+        int sum =1;
+       for (int i = 0; i < x.length; i++) {
+           if ((x[i]*i)%3==2){
+            sum*=(x[i]*x[i]);
+            }
+      }
+      System.out.println(sum);
+        }
+    }
+
     }
 }
