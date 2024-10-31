@@ -130,3 +130,54 @@ public class Main {
 
     }
 }
+ //taza zangvac
+//        char [] x={'g','h','j','l','y'};
+//        int index = 0;
+//
+//
+//        for (int i = 0; i < x.length; i++) {
+//
+//                index++;
+//                char [] y = new char [index];
+//                y[index-1] = x[i];
+//                System.out.println(x[i]);
+//
+//
+//        }
+//292
+//      int []x={1,2,0,45,0,87,0,90,0};
+//      int index=0;
+//        for (int i = 0; i < x.length; i++) {
+//            System.out.println(x[i]);
+//            if (x[i]==0){
+//                index+=3;
+//                int []y=new int[index];
+//                y[index-3]=x[i];
+//                y[index-2]=0;
+//                y[index-1]=0;
+//                System.out.println(y[index-2]);
+//                System.out.println(y[index-1]);
+//        int [][] array = {
+//                {2,3,4,5,6},
+//                {4,6,23,5,60,8},
+//                {5,7,5},
+//                {2,3,4,5}
+//        };
+ //361
+        int k=2;
+        int count=0;
+        int [][]a={
+                {5,4,2,87,9,5},
+                {8,7,9,85,1,125,0},
+                {9,84,5,5,2,1,7,8},
+                {9,78,1,22,255,5,23}
+        };
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                if (a[i][j]%k==0){
+                    count++;
+
+                }
+            }
+        }
+        System.out.print(count);
