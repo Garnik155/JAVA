@@ -36,3 +36,60 @@ int count=0;
         System.out.println();
         for (int i = 0; i < x.length; i++) {
             System.out.print(x[i]+ " ");
+
+        //241
+//        int count = 0;
+//        int []y={5,2,14,2,5,785,-5,-4,-41,-2};
+//        for (int i = 0; i < y.length; i++) {
+//            if (y[i]>0){
+//                count++;
+//            }
+//        }
+//       int index=0;
+//        int []x=new int[count];
+//        for (int i = 0; i < x.length; i++) {
+//            if (y[i]>0){
+//                x[index]=i;
+//                index++;
+//            }
+//
+//        }
+//        for (int i = 0; i <x.length ; i++) {
+//            System.out.print(y[i]+ " ");
+//               }
+        //242
+//        int count = 0;
+//        int[] y = {5,0,20,0,14,0,-2};
+//        for (int i = 0; i < y.length; i++) {
+//            if (y[i] != 0 ) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+//        int index = 0;
+//        int[] x = new int[count];
+//        for (int i = 0; i < x.length; i++) {
+//            if (y[i] != 0 ) {
+//                x[index] = i;
+//                index++;
+//            }
+//
+//        }
+//        for (int i = 0; i < x.length; i++) {
+//            System.out.print(y[i] + " ");
+//        }
+//        //234
+//        int count=0;
+//        int sum=0;
+//        char []x={'a','j','k','d','h','o','q'};
+//        for (int i = 0; i < x.length; i++) {
+//            if (x[i]>'h'){
+//                count++;
+//                sum+=i;
+//            }
+//        }
+//        System.out.println(sum);
+//        System.out.println(count);
+//        System.out.println(sum/count);
+    }
+}
